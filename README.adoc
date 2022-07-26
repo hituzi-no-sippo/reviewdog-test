@@ -1,9 +1,9 @@
 = Template repository
 :author: hituzi no sippo
 :email: dev@hituzi-no-sippo.me
-:revnumber: v0.10.0
-:revdate: 2022-07-26T17:38:31+09:00
-:revremark: Add shellcheck of shell linter
+:revnumber: v0.11.0
+:revdate: 2022-07-26T18:38:24+09:00
+:revremark: Add Dasel of JSON validator
 :description: README for {doctitle}
 :copyright: Copyright (C) 2022 {author}
 // Custom Attributes
@@ -31,8 +31,11 @@ Lint:: {shellcheck_link}
 
 ==== JSON
 
+:dasel_url: https://daseldocs.tomwright.me
+:dasel_link: link:{dasel_url}[Dasel^]
 [horizontal]
 Format:: {dprint_link}
+Lint:: {dasel_link}
 
 ==== YAML
 
@@ -62,6 +65,7 @@ Lint:: {vale_link}
 [CAUTION]
 ====
 .Tools not installed by setup
+* link:{dasel_url}/installation[Dasel^]
 * link:{vale_url}/docs/vale-cli/installation/[Vale^]
 ====
 
